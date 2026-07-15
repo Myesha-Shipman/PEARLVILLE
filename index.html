@@ -1,203 +1,292 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Pearlville is a developing women-led community initiative focused on service, mentorship, and practical skills." />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Pearlville is a developing women-led community initiative focused on service, mentorship, practical skills, and sisterhood.">
   <title>Pearlville | Real People. Real Things.</title>
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Great+Vibes&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
   <header class="site-header">
-    <a class="brand" href="#home" aria-label="Pearlville home">
-      <span class="brand-mark">P</span>
-      <span>
+    <a class="logo" href="#home" aria-label="Pearlville home">
+      <span class="pearl-circle" aria-hidden="true">
+        <span class="logo-letter">P</span>
+      </span>
+
+      <span class="logo-copy">
         <strong>PEARLVILLE</strong>
-        <small>Real People. Real Things.</small>
+        <em>Real People. Real Things.</em>
       </span>
     </a>
 
-    <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+    <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
 
-    <nav class="nav-links" aria-label="Main navigation">
+    <nav class="main-nav" aria-label="Main navigation">
+      <a href="#home">Home</a>
       <a href="#about">About</a>
       <a href="#vision">Our Vision</a>
-      <a href="#support">Support</a>
-      <a href="#join">Join</a>
-      <a class="nav-button" href="#contact">Contact</a>
+      <a href="#support">Support Us</a>
+      <a href="#join">Get Involved</a>
+      <a href="#contact">Contact</a>
+      <a class="nav-cta" href="#join">Join the Beginning</a>
     </nav>
   </header>
 
   <main id="home">
     <section class="hero">
+      <div class="hero-image" role="img" aria-label="Women volunteering together in the community"></div>
+      <div class="hero-overlay"></div>
+
       <div class="hero-content">
-        <p class="eyebrow">A NEW COMMUNITY INITIATIVE</p>
-        <h1>Real people.<br><span>Doing real things.</span></h1>
-        <p class="hero-copy">
-          Pearlville is being reimagined as a women-led community centered on service,
-          sisterhood, mentorship, and practical skills that strengthen families and neighborhoods.
+        <p class="kicker">A NEW COMMUNITY INITIATIVE</p>
+        <h1>
+          <span>Real People.</span>
+          <em>Real Things.</em>
+        </h1>
+
+        <p class="hero-intro">
+          Pearlville is a developing community of women committed to serving,
+          mentoring, teaching, and strengthening neighborhoods through action.
         </p>
-        <div class="hero-actions">
-          <a class="button primary" href="#join">Become a Founding Supporter</a>
-          <a class="button secondary" href="#vision">Explore the Vision</a>
+
+        <div class="hero-buttons">
+          <a class="button button-primary" href="#join">Become a Founding Supporter</a>
+          <a class="button button-outline" href="#vision">Explore Our Vision</a>
         </div>
-        <p class="status-note">
-          Pearlville is currently in its development and community-building stage.
-        </p>
-      </div>
 
-      <div class="hero-card" aria-label="Pearlville mission card">
-        <div class="pearl-ring">
-          <span>PEARLVILLE</span>
-        </div>
-        <blockquote>
-          “Real people do real things.”
-        </blockquote>
-        <p>A lesson passed down by our founder’s grandfather—and the value guiding everything we hope to build.</p>
+        <p class="development-note">
+          Pearlville is currently building its foundation, partnerships, and first pilot project.
+        </p>
       </div>
     </section>
 
-    <section class="section intro" id="about">
+    <section class="about-section section" id="about">
       <div class="section-heading">
-        <p class="eyebrow">OUR BEGINNING</p>
-        <h2>From a creative business to a community mission</h2>
-      </div>
-      <div class="two-column">
-        <p>
-          Pearlville originally began as a creative brand offering customized items such as
-          tumblers and sublimation products. Today, the name is being given a new purpose:
-          bringing women together to serve, teach, mentor, and build meaningful relationships.
-        </p>
-        <p>
-          This next chapter is still being developed. We are creating the foundation,
-          identifying partners, seeking funding, and connecting with people who believe
-          in practical community action.
-        </p>
-      </div>
-    </section>
-
-    <section class="section vision-section" id="vision">
-      <div class="section-heading centered">
-        <p class="eyebrow">WHAT WE HOPE TO BUILD</p>
-        <h2>Proposed community programs</h2>
-        <p class="section-note">These are planned initiatives and will launch as funding, volunteers, and partnerships become available.</p>
+        <p class="kicker">OUR STORY</p>
+        <h2>Creativity reimagined as community service.</h2>
       </div>
 
-      <div class="program-grid">
-        <article class="program-card">
-          <span class="program-number">01</span>
-          <h3>Community Service</h3>
-          <p>Organized service projects such as meal distribution, neighborhood cleanups, donation drives, and support for families in need.</p>
-        </article>
-
-        <article class="program-card">
-          <span class="program-number">02</span>
-          <h3>Skills &amp; Confidence</h3>
-          <p>Hands-on workshops where women and girls can learn practical skills, including braiding, hair care, budgeting, interviewing, and more.</p>
-        </article>
-
-        <article class="program-card">
-          <span class="program-number">03</span>
-          <h3>Mentorship</h3>
-          <p>Supportive relationships that encourage girls and young women to grow in confidence, leadership, education, and career readiness.</p>
-        </article>
-
-        <article class="program-card">
-          <span class="program-number">04</span>
-          <h3>Sisterhood Events</h3>
-          <p>Welcoming gatherings that help women connect, share ideas, plan service projects, and build lasting community relationships.</p>
-        </article>
-      </div>
-    </section>
-
-    <section class="section founder-message">
-      <div class="founder-panel">
-        <p class="eyebrow">THE HEART OF PEARLVILLE</p>
-        <h2>Showing up matters.</h2>
-        <p>
-          Pearlville is built on the belief that positive change does not always begin with a large organization.
-          It often begins with ordinary people who decide to show up, share what they know, and serve where they can.
-        </p>
-        <p>
-          Our goal is to create a community where women can use their time, talent, and experiences to make a genuine difference.
-        </p>
-      </div>
-    </section>
-
-    <section class="section support-section" id="support">
-      <div class="section-heading">
-        <p class="eyebrow">HELP BUILD THE FOUNDATION</p>
-        <h2>Pearlville is seeking early support</h2>
-      </div>
-
-      <div class="support-grid">
-        <div class="support-copy">
+      <div class="about-grid">
+        <div class="story-copy">
           <p>
-            Because Pearlville is new, our immediate focus is establishing the organization responsibly.
-            Early support will help us develop pilot events, purchase supplies, secure community spaces,
-            create youth programming, and build sustainable partnerships.
+            Pearlville first began as a creative business making customized tumblers
+            and sublimation products. That creative spirit is now being redirected
+            toward a larger purpose: creating opportunities for women to serve,
+            teach, mentor, and build meaningful relationships.
           </p>
-          <div class="need-list">
-            <div><strong>Funding</strong><span>Startup grants, sponsorships, and donations</span></div>
-            <div><strong>Partners</strong><span>Schools, nonprofits, businesses, and community centers</span></div>
-            <div><strong>Volunteers</strong><span>Women willing to serve, teach, mentor, or organize</span></div>
-            <div><strong>Resources</strong><span>Food, workshop supplies, hygiene products, and event space</span></div>
+
+          <div class="family-quote">
+            <span>Inspired by our founder’s grandfather:</span>
+            <blockquote>“Real people do real things.”</blockquote>
           </div>
+
+          <p>
+            Those words represent Pearlville’s central belief: meaningful change starts
+            when everyday people decide to show up and do something useful for others.
+          </p>
         </div>
 
-        <aside class="funding-card">
-          <p class="eyebrow">CURRENT PRIORITY</p>
-          <h3>Launch one meaningful pilot project</h3>
+        <aside class="starting-card">
+          <div class="mini-icon" aria-hidden="true">✦</div>
+          <p class="kicker">WE’RE JUST GETTING STARTED</p>
+          <h3>Help us build responsibly.</h3>
           <p>
-            Our first milestone is to organize a small, well-planned community event that demonstrates
-            Pearlville’s mission and creates a foundation for future funding.
+            Pearlville is in its planning and foundation stage. We are seeking
+            funding, sponsors, community partners, volunteers, supplies, and event space.
           </p>
-          <a class="text-link" href="#contact">Discuss sponsorship or partnership →</a>
+
+          <div class="starting-needs">
+            <span>Grants</span>
+            <span>Partners</span>
+            <span>Volunteers</span>
+            <span>Supplies</span>
+            <span>Space</span>
+          </div>
         </aside>
       </div>
     </section>
 
-    <section class="section join-section" id="join">
-      <div>
-        <p class="eyebrow">FOUNDING COMMUNITY</p>
-        <h2>Be part of the beginning.</h2>
+    <section class="vision-section section" id="vision">
+      <div class="section-heading centered">
+        <p class="kicker">OUR VISION</p>
+        <h2>Five ways Pearlville hopes to create change.</h2>
         <p>
-          Pearlville is gathering interest from potential volunteers, mentors, instructors,
-          partners, sponsors, and future members.
+          These are proposed program areas. They will be introduced gradually
+          as funding, volunteers, safeguards, and community partnerships are secured.
         </p>
       </div>
-      <a class="button light" href="https://forms.google.com" target="_blank" rel="noopener">
-        Add Your Interest Form Link
+
+      <div class="vision-grid">
+        <article class="vision-card">
+          <div class="icon-wrap" aria-hidden="true">
+            <svg viewBox="0 0 64 64"><path d="M16 29c6-10 13-13 16-13s10 3 16 13c4 6 1 17-8 19-4 1-6-2-8-2s-4 3-8 2c-9-2-12-13-8-19Z"/><path d="M32 16V8M24 12l-5-6M40 12l5-6"/></svg>
+          </div>
+          <h3>Serve</h3>
+          <p>Meal distribution, donation drives, neighborhood cleanups, and support for families experiencing hardship.</p>
+        </article>
+
+        <article class="vision-card">
+          <div class="icon-wrap" aria-hidden="true">
+            <svg viewBox="0 0 64 64"><path d="M12 15h17c4 0 7 3 7 7v29c-2-4-5-6-9-6H12V15Z"/><path d="M52 15H35c-4 0-7 3-7 7v29c2-4 5-6 9-6h15V15Z"/></svg>
+          </div>
+          <h3>Empower</h3>
+          <p>Practical workshops such as braiding, hair care, budgeting, interviewing, confidence-building, and career preparation.</p>
+        </article>
+
+        <article class="vision-card">
+          <div class="icon-wrap" aria-hidden="true">
+            <svg viewBox="0 0 64 64"><circle cx="22" cy="22" r="8"/><circle cx="43" cy="24" r="7"/><path d="M8 50c1-11 7-17 14-17s13 6 14 17M32 50c1-9 5-14 11-14s10 5 12 14"/></svg>
+          </div>
+          <h3>Connect</h3>
+          <p>Sisterhood gatherings that bring women together to build relationships, exchange ideas, and plan meaningful service.</p>
+        </article>
+
+        <article class="vision-card">
+          <div class="icon-wrap" aria-hidden="true">
+            <svg viewBox="0 0 64 64"><path d="m10 24 10 7 12-15 12 15 10-7-5 25H15l-5-25Z"/><path d="M17 54h30"/></svg>
+          </div>
+          <h3>Lead</h3>
+          <p>Mentorship and leadership experiences that help girls and young women grow in confidence, education, and career readiness.</p>
+        </article>
+
+        <article class="vision-card">
+          <div class="icon-wrap" aria-hidden="true">
+            <svg viewBox="0 0 64 64"><path d="M10 25 32 12l22 13-22 13-22-13Z"/><path d="M18 31v12c8 7 20 7 28 0V31M54 25v16"/></svg>
+          </div>
+          <h3>Impact</h3>
+          <p>Small, measurable pilot projects that respond to real community needs and create a responsible path for future growth.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="support-section section" id="support">
+      <div class="support-intro">
+        <p class="kicker">SUPPORT THE FOUNDATION</p>
+        <h2>Help turn the vision into a responsible first project.</h2>
+        <p>
+          Pearlville’s immediate priority is not to promise dozens of programs.
+          It is to raise the support needed to plan and deliver one meaningful,
+          well-documented pilot event.
+        </p>
+      </div>
+
+      <div class="funding-panel">
+        <div class="funding-icon" aria-hidden="true">$</div>
+        <div>
+          <p class="kicker">EARLY FUNDING NEEDS</p>
+          <h3>Startup grants, sponsorships, and in-kind support</h3>
+          <p>
+            Early support may be used for program supplies, food, hygiene items,
+            insurance, background screening where appropriate, venue costs,
+            outreach materials, and other responsible startup expenses.
+          </p>
+          <a class="text-link" href="#contact">Discuss a partnership <span>→</span></a>
+        </div>
+      </div>
+
+      <div class="support-options">
+        <article>
+          <span>01</span>
+          <h3>Fund</h3>
+          <p>Provide a startup grant, sponsorship, or donation toward a clearly defined pilot project.</p>
+        </article>
+        <article>
+          <span>02</span>
+          <h3>Partner</h3>
+          <p>Offer professional guidance, community access, space, referrals, or program collaboration.</p>
+        </article>
+        <article>
+          <span>03</span>
+          <h3>Contribute</h3>
+          <p>Donate approved supplies, food, equipment, printing, or other items needed for a project.</p>
+        </article>
+        <article>
+          <span>04</span>
+          <h3>Volunteer</h3>
+          <p>Share your time, skills, teaching experience, event-planning ability, or mentorship interests.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="join-section" id="join">
+      <div class="join-copy">
+        <p class="kicker light-kicker">FOUNDING COMMUNITY</p>
+        <h2>It takes real people to do real things.</h2>
+        <p>
+          Join the interest list as a potential volunteer, mentor, instructor,
+          community partner, sponsor, or founding member.
+        </p>
+      </div>
+
+      <a class="button button-light" href="https://forms.google.com" target="_blank" rel="noopener noreferrer">
+        Replace With Your Interest Form
       </a>
     </section>
 
-    <section class="section contact-section" id="contact">
-      <div class="section-heading centered">
-        <p class="eyebrow">CONNECT WITH PEARLVILLE</p>
-        <h2>Let’s do something real together.</h2>
-        <p class="section-note">
-          Replace the sample information below with your official email and social links.
+    <section class="newsletter-section section">
+      <div>
+        <p class="kicker">FOLLOW THE JOURNEY</p>
+        <h2>Be the first to hear what Pearlville is building.</h2>
+        <p>
+          Use this section for progress updates, volunteer interest, funding announcements,
+          and the eventual launch of Pearlville’s first pilot project.
         </p>
       </div>
-      <div class="contact-card">
-        <a href="mailto:hello@pearlville.org">hello@pearlville.org</a>
-        <span>•</span>
-        <a href="#">Instagram</a>
-        <span>•</span>
-        <a href="#">Facebook</a>
-      </div>
+
+      <form class="newsletter-form" action="#" method="post" onsubmit="return false;">
+        <label for="email">Email address</label>
+        <div class="email-row">
+          <input id="email" name="email" type="email" placeholder="you@example.com" autocomplete="email">
+          <button type="submit">Join the List</button>
+        </div>
+        <small>This form is a visual placeholder until you connect Mailchimp, Google Forms, or another email service.</small>
+      </form>
     </section>
   </main>
 
-  <footer>
-    <div>
-      <strong>PEARLVILLE</strong>
-      <p>Real People. Real Things.</p>
+  <footer class="site-footer" id="contact">
+    <div class="footer-brand">
+      <a class="logo footer-logo" href="#home">
+        <span class="pearl-circle" aria-hidden="true"><span class="logo-letter">P</span></span>
+        <span class="logo-copy">
+          <strong>PEARLVILLE</strong>
+          <em>Real People. Real Things.</em>
+        </span>
+      </a>
+      <p>A women-led community initiative currently in development.</p>
     </div>
-    <p>© <span id="year"></span> Pearlville. Community initiative in development.</p>
+
+    <div class="footer-column">
+      <h3>Explore</h3>
+      <a href="#about">About</a>
+      <a href="#vision">Our Vision</a>
+      <a href="#support">Support Us</a>
+      <a href="#join">Get Involved</a>
+    </div>
+
+    <div class="footer-column">
+      <h3>Connect</h3>
+      <a href="mailto:hello@pearlville.org">hello@pearlville.org</a>
+      <a href="#">Instagram</a>
+      <a href="#">Facebook</a>
+      <a href="#">LinkedIn</a>
+    </div>
+
+    <div class="footer-note">
+      <p>
+        Pearlville is a developing community initiative. Replace this statement
+        when the organization’s formal legal and tax status is established.
+      </p>
+      <p>© <span id="year"></span> Pearlville.</p>
+    </div>
   </footer>
 
   <script src="script.js"></script>
